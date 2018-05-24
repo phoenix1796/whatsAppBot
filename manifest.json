@@ -1,0 +1,20 @@
+{
+    
+      "manifest_version": 2,
+      "name": "whatsapp-checker",
+      "version": "1.0",
+    
+      "description": "does something ;)",
+    
+    //   "icons": {
+    //     "48": "icons/border-48.png"
+    //   },
+    
+      "content_scripts": [
+        {
+          "matches": ["*://*.web.whatsapp.com/*"],
+          "js": ["checker.js"]
+        }
+      ]
+    
+    }
